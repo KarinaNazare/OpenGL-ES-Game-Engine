@@ -1,0 +1,33 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug-Nvidia\) contains files shared from another project (curs3L3DGD.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Shaders.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  Terrain.cpp
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\terrain.cpp(42): warning C4018: '<': signed/unsigned mismatch
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\terrain.cpp(82): warning C4018: '<': signed/unsigned mismatch
+  Skybox.cpp
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\skybox.cpp(42): warning C4018: '<': signed/unsigned mismatch
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\skybox.cpp(87): warning C4018: '<': signed/unsigned mismatch
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\skybox.cpp(113): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  SceneObject.cpp
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\sceneobject.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\sceneobject.cpp(79): warning C4018: '<': signed/unsigned mismatch
+  ResourceManager.cpp
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\resourcemanager.cpp(153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\resourcemanager.cpp(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  Mesh.cpp
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\mesh.cpp(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\mesh.cpp(87): warning C4018: '<': signed/unsigned mismatch
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\mesh.cpp(122): warning C4018: '<': signed/unsigned mismatch
+  Fire.cpp
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\fire.cpp(43): warning C4018: '<': signed/unsigned mismatch
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\fire.cpp(93): warning C4018: '<': signed/unsigned mismatch
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\curs3l3dgd\fire.cpp(113): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  SceneManager.cpp
+  Model.cpp
+  curs3L3DGD.vcxproj -> C:\Users\Karina\Desktop\MG3DTR-NAKwc\Nazare Ana - Karina\NAK_GameEngine\NAK_GameEngine\\BIN-Nvidia\GameEngine.exe

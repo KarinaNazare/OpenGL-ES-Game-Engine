@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sceneManager>
+
+	<backgroundColor>
+		<r>0.0</r>
+		<g>0.3</g>
+		<b>0.5</b>
+	</backgroundColor>
+
+  <fog>
+    <bigRay> 300.0 </bigRay>
+    <smallRay> 150.0 </smallRay>
+    <color>
+      <r>0.33</r>
+      <g>0.3</g>
+      <b>0.37</b>
+    </color>
+  </fog>
+	
+	<cameras>
+		<camera id="1">
+			<position>
+				<x>0</x>
+				<y>20</y>
+				<z>0</z>
+			</position>
+			<target>
+				<x>0</x>
+				<y>20</y>
+				<z>50</z>
+			</target>
+			<up>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</up>
+			<translationSpeed>10</translationSpeed>
+			<rotationSpeed>0.3</rotationSpeed>
+			<fov>45</fov>
+			<near>0.2</near>
+			<far>1000</far>
+		</camera>
+		<!-- eventual si alte cameras -->
+	</cameras>
+	<activeCamera>1</activeCamera>
+
+	
+	<objects>
+ 
+
+
+<object id="2">
+  <model>15</model>
+  <shader>4</shader>
+  <type>normal</type>
+  <depthTest>true</depthTest>
+  <blend>true</blend>
+  <name>Witch</name>
+  <textures>
+    <texture id="15"/>
+  </textures>
+  <position>
+    <x>80.0</x>
+    <y>50.0</y>
+    <z>100.0</z>
+  </position>
+  <rotation>
+    <x>0.0</x>
+    <y>1.0</y>
+    <z>0.0</z>
+  </rotation>
+  <scale>
+    <x>0.2</x>
+    <y>0.2</y>
+    <z>0.2</z>
+  </scale>
+  <selfRotateSpeed>0.1</selfRotateSpeed>
+</object>
+
+
+<object id="89">
+  <model>89</model>
+  <shader>4</shader>
+  <type>normal</type>
+  <depthTest>true</depthTest>
+  <blend>true</blend>
+  <name>House</name>
+  <textures>
+    <texture id="89"/>
+  </textures>
+  <position>
+    <x>700.0</x>
+    <y>00.0</y>
+    <z>700.0</z>
+  </position>
+  <rotation>
+    <x>0.0</x>
+    <y>0.2</y>
+    <z>0.0</z>
+  </rotation>
+  <scale>
+    <x>0.10</x>
+    <y>0.1</y>
+    <z>0.1</z>
+  </scale>
+  <selfRotateSpeed>0.1</selfRotateSpeed>
+</object>
+
+<object id="8">
+  <model>generated</model>
+  <shader>10</shader>
+  <type>terrain</type>
+  <depthTest>true</depthTest>
+  <blend>true</blend>
+  <name>Terrain</name>
+  <color>
+    <r>1.0</r>
+    <g>1.0</g>
+    <b>1.0</b>
+  </color>
+  <textures>
+    <texture id="13"/>
+    <texture id="10"/>
+    <texture id="11"/>
+    <texture id="12"/>
+  </textures>
+  <position>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </position>
+  <rotation>
+    <x>0.0</x>
+    <y>0.0</y>
+    <z>0.0</z>
+  </rotation>
+  <scale>
+    <x>1.0</x>
+    <y>1.0</y>
+    <z>1.0</z>
+  </scale>
+  <nr_cell>16</nr_cell>
+  <dim_cell>30.0</dim_cell>
+  <offsetY>-10</offsetY>
+  <height>
+    <r>0</r>
+    <g>2</g>
+    <b>5</b>
+  </height>
+</object>
+
+
+<object id="7">
+  <model>7</model>
+  <shader>7</shader>
+  <type>skybox</type>
+  <depthTest>true</depthTest>
+  <blend>false</blend>
+  <name>Skybox</name>
+  <color>
+    <r>0</r>
+    <g>0.3</g>
+    <b>0.9</b>
+  </color>
+  <textures>
+    <texture id="7"/>
+  </textures>
+  <position>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </position>
+  <rotation>
+    <x>3.14</x>
+    <y>0.0</y>
+    <z>0.0</z>
+  </rotation>
+  <scale>
+    <x>300</x>
+    <y>300</y>
+    <z>300</z>
+  </scale>
+  <offset>250</offset>
+  <selfRotateSpeed>0</selfRotateSpeed>
+  <followingCamera>
+    <cameras>
+      <camera>1</camera>
+    </cameras>
+  </followingCamera>
+  <lights>
+    <light>1</light>
+  </lights>
+</object>
+
+    <object id="71">
+      <model>71</model>
+      <shader>71</shader>
+      <type>fire</type>
+      <depthTest>true</depthTest>
+      <blend>true</blend>
+      <name>Fire</name>
+      <color>
+        <r>1.0</r>
+        <g>0.0</g>
+        <b>0.0</b>
+      </color>
+      <textures>
+        <texture id="73"/>
+        <texture id="72"/>
+        <texture id="71"/>
+      </textures>
+      <position>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </rotation>
+      <scale>
+        <x>3.0</x>
+        <y>3.0</y>
+        <z>3.0</z>
+      </scale>
+      <height>
+        0.04
+      </height>
+    </object>
+     
+	</objects>
+
+
+	<ambientalLight>
+		<color>
+			<r>1.0</r>
+			<g>1.0</g>
+			<b>1.0</b>
+		</color>
+		<ratio>0.6</ratio>
+	</ambientalLight>
+  <!--
+	<lights>
+		<light id="1">
+			<associatedObject>2</associatedObject>
+			<diffuseColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</diffuseColor>
+			<specularColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</specularColor>
+			<type>point</type>
+			<specCoef>1.0</specCoef>
+			<diffCoef>1.0</diffCoef>
+			<shininess>0.3</shininess>
+		</light>
+	</lights>
+	
+	<debugSettings>
+		<objectAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OYColor>
+			<OZColor>
+				<r>0.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</objectAxes>
+		<camAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</OYColor>
+			<OZColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</camAxes>
+	</debugSettings>-->
+	
+</sceneManager>

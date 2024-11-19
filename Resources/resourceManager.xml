@@ -1,0 +1,126 @@
+<resourceManager>
+	<models>
+		<model id="1">
+			<path>../Resources/Models/croco.nfg</path>
+		</model>
+		<model id="5">
+			<path>../Resources/Models/bila.nfg</path>
+		</model>
+    <model id="15">
+      <path>../Resources/Models/witch.nfg</path>
+    </model>
+    <model id="7">
+      <path>../Resources/Models/skybox.nfg</path>
+    </model>
+    <model id="89">
+      <path>../Resources/Models/house.nfg</path>
+    </model>
+    <model id="71">
+      <path>../Resources/Models/fire.nfg</path>
+    </model>
+		<!-- si aici se adauga toate modelele -->
+	</models>
+	<shaders>
+    <shader id="4">
+      <vs>../Resources/Shaders/VertexShader.vs</vs>
+      <fs>../Resources/Shaders/FragmentShader.fs</fs>
+    </shader>
+		<shader id="8">
+			<vs>../Resources/Shaders/VertexShader.vs</vs>
+			<fs>../Resources/Shaders/FragmentShader.fs</fs>
+		</shader>
+    <shader id="7">
+			<vs>../Resources/Shaders/SkyboxShader.vs</vs>
+			<fs>../Resources/Shaders/SkyboxShader.fs</fs>
+		</shader>
+    <shader id="71">
+      <vs>../Resources/Shaders/FireShader.vs</vs>
+      <fs>../Resources/Shaders/FireShader.fs</fs>
+    </shader>
+    <shader id="10">
+      <vs>../Resources/Shaders/TerrainShader.vs</vs>
+      <fs>../Resources/Shaders/TerrainShader.fs</fs>
+    </shader>
+		<!-- si aici se adauga toate shaderele -->
+	</shaders>
+	<textures>
+		<texture id="4" type="2d">
+			<path>../Resources/Textures/Croco.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="89" type="2d">
+			<path>../Resources/Textures/House.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+    <texture id="7" type="cube">
+      <path>../Resources/Textures/EnvMap.tga</path>
+      <min_filter>LINEAR</min_filter>
+      <mag_filter>LINEAR</mag_filter>
+      <wrap_s>CLAMP_TO_EDGE</wrap_s>
+      <wrap_t>CLAMP_TO_EDGE</wrap_t>
+    </texture>
+		<texture id="13" type="2d">
+			<path>../Resources/Textures/Terrain_blend_map.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>GL_REPEAT</wrap_s>
+			<wrap_t>GL_REPEAT</wrap_t>
+		</texture>
+    <texture id="10" type="2d">
+      <path>../Resources/Textures/Dirt.tga</path>
+      <min_filter>LINEAR</min_filter>
+      <mag_filter>LINEAR</mag_filter>
+      <wrap_s>GL_REPEAT</wrap_s>
+      <wrap_t>GL_REPEAT</wrap_t>
+    </texture>
+    <texture id="12" type="2d">
+      <path>../Resources/Textures/Grass.tga</path>
+      <min_filter>LINEAR</min_filter>
+      <mag_filter>LINEAR</mag_filter>
+      <wrap_s>GL_REPEAT</wrap_s>
+      <wrap_t>GL_REPEAT</wrap_t>
+    </texture>
+    <texture id="11" type="2d">
+      <path>../Resources/Textures/Rock.tga</path>
+      <min_filter>LINEAR</min_filter>
+      <mag_filter>LINEAR</mag_filter>
+      <wrap_s>GL_REPEAT</wrap_s>
+      <wrap_t>GL_REPEAT</wrap_t>
+    </texture>
+    <texture id="15" type="2d">
+      <path>../Resources/Textures/Witch.tga</path>
+      <min_filter>LINEAR</min_filter>
+      <mag_filter>LINEAR</mag_filter>
+      <wrap_s>CLAMP_TO_EDGE</wrap_s>
+      <wrap_t>CLAMP_TO_EDGE</wrap_t>
+    </texture>
+
+    <texture id="71" type="2d">
+      <path>../Resources/Textures/Fire_mask.tga</path>
+      <min_filter>LINEAR</min_filter>
+      <mag_filter>LINEAR</mag_filter>
+      <wrap_s>GL_REPEAT</wrap_s>
+      <wrap_t>GL_REPEAT</wrap_t>
+    </texture>
+    <texture id="72" type="2d">
+      <path>../Resources/Textures/Fire3.tga</path>
+      <min_filter>LINEAR</min_filter>
+      <mag_filter>LINEAR</mag_filter>
+      <wrap_s>GL_REPEAT</wrap_s>
+      <wrap_t>GL_REPEAT</wrap_t>
+    </texture>
+    <texture id="73" type="2d">
+      <path>../Resources/Textures/DisplacementMap.tga</path>
+      <min_filter>LINEAR</min_filter>
+      <mag_filter>LINEAR</mag_filter>
+      <wrap_s>GL_REPEAT</wrap_s>
+      <wrap_t>GL_REPEAT</wrap_t>
+    </texture>
+	</textures>	
+</resourceManager>

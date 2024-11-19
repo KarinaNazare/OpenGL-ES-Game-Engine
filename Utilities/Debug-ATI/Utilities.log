@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  TGA.cpp
+  Math.cpp
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\utilities\math.cpp(9): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\utilities\math.cpp(103): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\karina\desktop\mg3dtr-nakwc\nazare ana - karina\nak_gameengine\nak_gameengine\utilities\math.cpp(207): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  esUtil_win.cpp
+  esUtil.cpp
+  esShader.cpp
+  Generating Code...
+  Utilities.vcxproj -> C:\Users\Karina\Desktop\MG3DTR-NAKwc\Nazare Ana - Karina\NAK_GameEngine\NAK_GameEngine\BIN-ATI\Utilities.lib
